@@ -1,0 +1,19 @@
+{
+  "name": "gulp-webpack-setup",
+  "version": "1.0.0",
+  "description": "A Gulp setup that includes Webpack for JS transformations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSauceda/gulp-webpack-setup.git"
+  },
+  "author": "Oscar Sauceda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSauceda/gulp-webpack-setup/issues"
+  },
+  "homepage": "https://github.com/OSauceda/gulp-webpack-setup#readme"
+}
