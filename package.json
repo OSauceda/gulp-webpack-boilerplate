@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/OSauceda/gulp-webpack-setup/issues"
   },
-  "homepage": "https://github.com/OSauceda/gulp-webpack-setup#readme"
+  "homepage": "https://github.com/OSauceda/gulp-webpack-setup#readme",
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "@babel/register": "7.4.4",
+    "gulp": "4.0.2"
+  }
 }
