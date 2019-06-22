@@ -1,0 +1,1 @@
+// Webpack configuration for development environment
