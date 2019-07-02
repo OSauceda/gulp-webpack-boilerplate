@@ -1,7 +1,7 @@
 // Webpack configuration for production environment
 const webpackMerge = require('webpack-merge');
 const TerserPlugin = require('terser-webpack-plugin');
-const baseConfig = require('./webpack-config/webpack.config.base.js');
+const baseConfig = require('./webpack.config.base.js');
 
 const prodConfig = {
   mode: 'production',

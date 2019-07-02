@@ -1,6 +1,6 @@
 // Webpack configuration for development environment
 const webpackMerge = require('webpack-merge');
-const baseConfig = require('./webpack-config/webpack.config.base.js');
+const baseConfig = require('./webpack.config.base.js');
 
 const devConfig = {
   watch: true,

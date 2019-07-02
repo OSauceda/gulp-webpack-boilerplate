@@ -6,6 +6,9 @@ import sourcemaps from 'gulp-sourcemaps';
 import sass from 'gulp-sass';
 import cssnano from 'gulp-cssnano';
 
+// Webpack
+import { scripts } from './webpack.config.js';
+
 // SCSS task
 gulp.task('scss', () => {
   const sassOptions = {
@@ -28,3 +31,5 @@ gulp.task('scss', () => {
     .pipe(gulp.dest('./dist/assets/css/'));
 });
 
+// Development task
+gulp.task('default', scripts);
