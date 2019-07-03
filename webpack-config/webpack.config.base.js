@@ -9,7 +9,7 @@ let bundleDest = path.resolve(`${__dirname}/../../assets`, 'js');
 
 const config = {
   entry: {
-    master: './js/app.js'
+    master: './src/js/app.js'
   },
   output: {
     filename: '[name].js',
