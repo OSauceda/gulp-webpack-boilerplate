@@ -5,11 +5,13 @@ const path = require('path');
 
 const jsViews = glob.sync('./src/js/sections/**/*.js');
 
-let bundleDest = path.resolve(`${__dirname}/../../assets`, 'js');
+let bundleDest = path.resolve(`${__dirname}/../dist/assets`, 'js');
+
+console.log(bundleDest);
 
 const config = {
   entry: {
-    master: './src/js/app.js'
+    app: './src/js/app.js'
   },
   output: {
     filename: '[name].js',
@@ -37,7 +39,7 @@ const config = {
           {
             loader: 'babel-loader',
             options: {
-              presets: ["react", "es2015", "stage-0", "stage-3"],
+              presets: ["@babel/react"],
               comments: false
             }
           }
@@ -45,9 +47,6 @@ const config = {
       }
     ]
   },
-  plugins: [
-    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-  ]
 }
 
 if (jsViews.length) {
