@@ -88,4 +88,5 @@ typings/
 .dynamodb/
 
 # Compiled CSS and JS
-dist/
+dist/assets/css/*
+dist/assets/js/*.js
